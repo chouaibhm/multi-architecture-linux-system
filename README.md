@@ -1,5 +1,5 @@
 # Multi Architecture Linux System
-Make you linux system multi architecture
+## Make you linux system multi architecture
 Multiarch is the term being used to refer to the capability of a system to install and run applications of multiple different binary targets on the same system. For example running a i386-linux-gnu application on an amd64-linux-gnu system. This example is the most common case, but many other working combinations are possible, such as armel and armhf.
 
 Multiarch also simplifies cross-building, where foreign-architecture libraries and headers are needed on a system during building.
