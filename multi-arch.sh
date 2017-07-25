@@ -39,7 +39,7 @@ architecture(){
 	
 	echo -e "\n$BLUE Setp 1:$GREEN Adding architecture 32 \n" $(dpkg --add-architecture i386)
 	echo -e "\n$BLUE Setp 2:$GREEN Updating:\n" $(sudo apt-get update)
-	echo -e "\n$BLUE Setp 3:$GREEN Adding libs part 1 \n" $(apt-get install libdbus-1-3:i386 libasound2:i386 libexpat1:i386 libfontconfig1:i386 libfreetype6:i386 libjpeg62-turbo:i386 libsm6:i386 libxdamage1:i386 libxext6:i386 libxfixes3:i386 libxinerama1:i386 libxrandr2:i386 libxrender1:i386 libxtst6:i386 zlib1g:i386 libc6:i386)
+	echo -e "\n$BLUE Setp 3:$GREEN Adding libs part 1 \n" $(apt-get install libdbus-1-3:i386 libasound2:i386 libexpat1:i386 libfontconfig1:i386 libfreetype6:i386 libsm6:i386 libxdamage1:i386 libxext6:i386 libxfixes3:i386 libxinerama1:i386 libxrandr2:i386 libxrender1:i386 libxtst6:i386 zlib1g:i386 libc6:i386)
 	echo -e "\n$BLUE Setp 4:$GREEN Adding libs part 2\n"$(apt-get install libgtk2.0-0:i386 gtk2-engines-murrine:i386 gtk2-engines-pixbuf:i386 libpango1.0-0:i386)
 	echo -e "\n$BLUE Setp 5:$GREEN Adding libs part 3 including Android SDK Lib\n" $(apt-get install libstdc++6:i386 libgcc1:i386 zlib1g:i386 libncurses5:i386)
 	echo -e "\n$BLUE Setp 6:$GREEN Updating !\n" $(apt-get update)
